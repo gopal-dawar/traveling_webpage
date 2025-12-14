@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="Icon" href="./images/logo.png" type="images" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyTrail</title>
+
+    <!-- Remix Icon CDN for Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- scroll animation cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+
+    <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <!-- login and sign -->
+     <div class="login" id="loginbtn">
+      <div class="container">
+
+      </div>
+     </div>
+    <!-- Home Section -->
+    <div class="home">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 724"
+        fill="none"
+      >
+        <g opacity="0.3" filter="url(#filter0_f)">
+          <ellipse
+            cx="-180.528"
+            cy="188.597"
+            rx="239.472"
+            ry="248.432"
+            fill="#D5AEE4"
+          />
+        </g>
+        <path
+          d="M758.307 222C717.907 153.2 741.474 13.3333 758.307 -48L1437.81 -149L1502.31 122.5L1463.81 723.5C1385.14 724.5 1209.71 717 1137.31 679C1046.81 631.5 1087.81 555 1012.81 515C937.807 475 980.807 369.5 954.807 329.5C928.807 289.5 808.807 308 758.307 222Z"
+          fill="#009688"
+        />
+        <defs>
+          <filter
+            id="filter0_f"
+            x="-570"
+            y="-209.836"
+            width="778.945"
+            height="796.864"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feflood flood-opacity="0" result="BackgroundImageFix" />
+            <feblend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <fegaussianblur stdDeviation="75" result="effect1_foregroundBlur" />
+          </filter>
+        </defs>
+      </svg>
+
+      <header>
+        <div class="container">
+          <div class="logo">
+            <a href="#"><span>S</span>ky<span>T</span>rail</a>
+          </div>
+
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#specialdeal">Special Deals</a></li>
+            <li class="dropdown">
+              <a href="#">More ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blogs">Blog</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <li><a href="#book" class="btn-book">Book Now</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="auth">
+            <div class="search">
+              <input type="search" placeholder="Search Here..." />
+              <i class="ri-search-line"></i>
+            </div>
+            <i class="ri-user-3-line user"></i>
+
+            <ul class="auth-group">
+              <li><a href="#" popovertarget="Siginbox">Sigin</a></li>
+              <li><a href="#" id="loginBtn" >Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="hero">
+        <div class="container">
+          <div class="info">
+            <div class="heading1">
+              <span>B</span>est <span>D</span>estinations <span>A</span>round
+              <span>T</span>he <span>W</span>orld
+            </div>
+            <div class="heading2" id="heading2">
+              <span>Travel,</span> enjoy and live a new <span>and</span> full
+              <span>life</span>
+            </div>
+            <div class="line">
+              Built Wicket longer admire do barton vanity itself do in it.
+              Preferred to sportsmen it engrossed listening. <br />
+              Park gate sell they west hard for the.
+            </div>
+            <div class="btns">
+              <div class="btn-overlay">Explore More</div>
+              <a href="#" class="btn">
+                Explore More <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="imgs">
+            <img src="./images/heroimg.png" alt />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <!-- packages section here  -->
+      <div class="packages" id="packages">
+        <div class="heading"><span>P</span>opular <span>P</span>lace</div>
+        <div class="container">
+          <div class="slider">
+            <div class="slidecontrol">
+              <i class="ri-arrow-left-wide-fill left"></i>
+              <i class="ri-arrow-right-wide-line right"></i>
+            </div>
+            <div class="slides">
+              <div class="row">
+                <div class="info">
+                  <div class="info-data">
+                    <div class="heading">Barcelona</div>
+                    <div class="line">
+                      Barcelona, the cosmopolitan capital of Spain’s Catalonia
+                      region, is famous for its artistic heritage and stunning
+                      architecture. The Sagrada Família, Park Güell, and other
+                      Gaudí masterpieces make it a city of endless beauty.
+                    </div>
+                    <div class="tag">Just Beautiful</div>
+                    <button>
+                      <div class="overlay">Explore Now</div>
+                      Explore Now
+                    </button>
+                  </div>
+                </div>
+                <div class="cards cards1">
+                  <div class="imgs">
+                    <img src="./images/dest1.jpg" loading="lazy" />
+                  </div>
+                </div>
+                <div class="cards cards2">
+                  <img src="./images/dest2.jpg" alt="" />
+                  <img src="./images/dest3.jpg" alt="" />
+                </div>
+                <div class="cards cards3">
+                  <img src="./images/dest4.jpg" alt="" />
+                </div>
+                <div class="cards cards4">
+                  <img src="./images/dest5.jpg" alt="" />
+                  <img src="./images/dest6.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="info">
+                  <div class="info-data">
+                    <div class="heading">Beaches</div>
+                    <div class="line">
+                      Relax on golden sands and enjoy crystal-clear waters at
+                      some of the world's most breathtaking beaches. Perfect for
+                      sunbathing, surfing, or simply soaking in the coastal
+                      vibes.
+                    </div>
+                    <div class="tag">Just Beautiful</div>
+                    <button>
+                      <div class="overlay">Explore Now</div>
+                      Explore Now
+                    </button>
+                  </div>
+                </div>
+                <div class="cards cards1">
+                  <div class="imgs">
+                    <img src="./images/dest7.jpg" loading="lazy" />
+                  </div>
+                </div>
+                <div class="cards cards2">
+                  <img src="./images/dest8.jpg" alt="" />
+                  <img src="./images/dest9.jpg" alt="" />
+                </div>
+                <div class="cards cards3">
+                  <img src="./images/dest10.jpg" alt="" />
+                </div>
+                <div class="cards cards4">
+                  <img src="./images/dest11.jpg" alt="" />
+                  <img src="./images/dest12.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="info">
+                  <div class="info-data">
+                    <div class="heading">Hill Station</div>
+                    <div class="line">
+                      Escape to the serene beauty of a hill station, surrounded
+                      by lush green valleys, cool breezes, and peaceful mountain
+                      views. A perfect getaway to refresh your soul.
+                    </div>
+                    <div class="tag">Just Beautiful</div>
+                    <button>
+                      <div class="overlay">Explore Now</div>
+                      Explore Now
+                    </button>
+                  </div>
+                </div>
+                <div class="cards cards1">
+                  <div class="imgs">
+                    <img src="./images/dest13.jpg" loading="lazy" />
+                  </div>
+                </div>
+                <div class="cards cards2">
+                  <img src="./images/dest14.jpg" alt="" />
+                  <img src="./images/dest15.jpg" alt="" />
+                </div>
+                <div class="cards cards3">
+                  <img src="./images/dest16.jpg" alt="" />
+                </div>
+                <div class="cards cards4">
+                  <img src="./images/dest17.jpg" alt="" />
+                  <img src="./images/dest18.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Destinations -->
+      <div class="destinations" id="destinations" data-aos="zoom-in">
+        <div class="container">
+          <div class="heading"><span>Destin</span>ations</div>
+          <div class="row">
+            <div class="cards" data-aos="zoom-in" data-aos-delay="0">
+              <div class="imgs">
+                <img src="./images/pack (1).jpg" alt="Goa Beaches" />
+                <div class="info">
+                  <div class="heading">Goa Beaches</div>
+                  <div class="tag">Sun, Sand & Sea Adventures</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="100">
+              <div class="imgs">
+                <img src="./images/pack (2).jpg" alt="Manali Hills" />
+                <div class="info">
+                  <div class="heading">Manali Hills</div>
+                  <div class="tag">Snow-Capped Beauty Awaits</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="200">
+              <div class="imgs">
+                <img src="./images/pack (3).jpg" alt="Kerala Backwaters" />
+                <div class="info">
+                  <div class="heading">Kerala Backwaters</div>
+                  <div class="tag">Sail Through Serene Waters</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="300">
+              <div class="imgs">
+                <img
+                  src="./images/pack (4).jpg"
+                  alt="Rajasthan Desert Safari"
+                />
+                <div class="info">
+                  <div class="heading">Rajasthan Desert Safari</div>
+                  <div class="tag">Golden Sands & Camel Rides</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="400">
+              <div class="imgs">
+                <img src="./images/pack (5).jpg" alt="Andaman Islands" />
+                <div class="info">
+                  <div class="heading">Andaman Islands</div>
+                  <div class="tag">Tropical Paradise Awaits</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="500">
+              <div class="imgs">
+                <img src="./images/pack (6).jpg" alt="Leh-Ladakh Adventure" />
+                <div class="info">
+                  <div class="heading">Leh-Ladakh Adventure</div>
+                  <div class="tag">The Roof of the World</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="600">
+              <div class="imgs">
+                <img src="./images/pack (7).jpg" alt="Ooty Hills" />
+                <div class="info">
+                  <div class="heading">Ooty Hills</div>
+                  <div class="tag">Tea Gardens & Cool Breezes</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="700">
+              <div class="imgs">
+                <img src="./images/pack (8).jpg" alt="Varanasi Ghats" />
+                <div class="info">
+                  <div class="heading">Varanasi Ghats</div>
+                  <div class="tag">Spirituality on the Ganges</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="800">
+              <div class="imgs">
+                <img src="./images/pack (9).jpg" alt="Shimla Retreat" />
+                <div class="info">
+                  <div class="heading">Shimla Retreat</div>
+                  <div class="tag">Colonial Charm & Scenic Views</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards" data-aos="zoom-in" data-aos-delay="900">
+              <div class="imgs">
+                <img src="./images/pack (10).jpg" alt="Meghalaya Waterfalls" />
+                <div class="info">
+                  <div class="heading">Meghalaya Waterfalls</div>
+                  <div class="tag">Land of Clouds & Cascades</div>
+                  <button>
+                    <div class="overlay">Explore Now</div>
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Explore Section  -->
+      <div class="explore" id="specialdeal">
+        <div class="row">
+          <div class="imgs">
+            <img src="./images/con (2).jpg" alt="Contact Image" />
+
+            <div class="overlay"></div>
+
+            <div class="info">
+              <div class="heading">Exotic Destinations</div>
+              <div class="tag">Just Beautiful</div>
+              <button>
+                <div class="overlay">Book Now</div>
+                Book Now
+              </button>
+            </div>
+          </div>
+
+          <div class="imgs">
+            <img src="./images/con (3).jpg" alt="Contact Image" />
+            <div class="overlay"></div>
+            <div class="info">
+              <div class="heading">City Tour in Europe</div>
+              <div class="tag">Just Beautiful</div>
+              <button>
+                <div class="overlay">Book Now</div>
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="imgs">
+            <img src="./images/con (1).jpg" alt="Contact Image" />
+            <div class="overlay"></div>
+            <div class="info">
+              <div class="heading">Choose Destinations</div>
+              <div class="tag">Just Beautiful</div>
+              <button>
+                <div class="overlay">Book Now</div>
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="imgs">
+            <img src="./images/con (4).jpg" alt="Contact Image" />
+            <div class="overlay"></div>
+            <div class="info">
+              <div class="heading">Vacation on The Sea</div>
+              <div class="tag">Just Beautiful</div>
+              <button>
+                <div class="overlay">Book Now</div>
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- blog section here -->
+      <div class="blogs" id="blogs">
+        <div class="container">
+          <div class="heading"><span>B</span>log</div>
+          <div class="row">
+            <!-- card 1 -->
+            <div class="card" data-aos="zoom-out-up">
+              <div class="imgs">
+                <img
+                  src="./images/Blogs(1).jpg"
+                  alt="Goa Beaches"
+                  loading="lazy"
+                />
+              </div>
+              <div class="info">
+                <div class="p-heading">Goa Beaches</div>
+                <div class="line">
+                  Relax on golden sands, enjoy thrilling water sports, and
+                  explore the vibrant nightlife of India’s favorite beach
+                  destination.
+                </div>
+                <div class="btn-group">
+                  <button><div class="overlay">Explore More</div> <a href="#">Explore more</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card" data-aos="zoom-out-up">
+              <div class="imgs">
+                <img
+                  src="./images/Blogs(2).jpg"
+                  alt="Manali Hills"
+                  loading="lazy"
+                />
+              </div>
+              <div class="info">
+                <div class="p-heading">Manali Hills</div>
+                <div class="line">
+                  Surrounded by snow-capped peaks and lush valleys, Manali is
+                  perfect for adventure, romance, and peaceful getaways.
+                </div>
+                <div class="btn-group">
+                  <button><div class="overlay">Explore More</div> <a href="#">Explore more</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card" data-aos="zoom-out-up">
+              <div class="imgs">
+                <img
+                  src="./images/Blogs(3).jpg"
+                  alt="Kerala Backwaters"
+                  loading="lazy"
+                />
+              </div>
+              <div class="info">
+                <div class="p-heading">Kerala Backwaters</div>
+                <div class="line">
+                  Cruise through serene waters on a houseboat and experience the
+                  lush greenery, exotic wildlife, and local culture of Kerala.
+                </div>
+                <div class="btn-group">
+                  <button><div class="overlay">Explore More</div> <a href="#">Explore more</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card" data-aos="zoom-out-up">
+              <div class="imgs">
+                <img
+                  src="./images/Blogs(4).jpg"
+                  alt="Rajasthan Desert Safari"
+                  loading="lazy"
+                />
+              </div>
+              <div class="info">
+                <div class="p-heading">Rajasthan Desert Safari</div>
+                <div class="line">
+                  Ride through the golden dunes of Jaisalmer, enjoy cultural
+                  performances, and spend a magical night under the stars.
+                </div>
+                <div class="btn-group">
+                  <button><div class="overlay">Explore More</div> <a href="#">Explore more</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 5 -->
+            <div class="card" data-aos="zoom-out-up">
+              <div class="imgs">
+                <img
+                  src="./images/Blogs(5).jpg"
+                  alt="Andaman Islands"
+                  loading="lazy"
+                />
+              </div>
+              <div class="info">
+                <div class="p-heading">Andaman Islands</div>
+                <div class="line">
+                  Dive into crystal-clear waters, explore coral reefs, and relax
+                  on pristine beaches surrounded by lush tropical forests.
+                </div>
+                <div class="btn-group">
+                  <button><div class="overlay">Explore More</div> <a href="#">Explore more</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 6 -->
+            <div class="card" data-aos="zoom-out-up">
+              <div class="imgs">
+                <img
+                  src="./images/Blogs(6).jpg"
+                  alt="Leh-Ladakh Adventure"
+                  loading="lazy"
+                />
+              </div>
+              <div class="info">
+                <div class="p-heading">Leh-Ladakh Adventure</div>
+                <div class="line">
+                  Embark on a high-altitude journey through rugged mountains,
+                  serene monasteries, and breathtaking landscapes.
+                </div>
+                <div class="btn-group">
+                  <button><div class="overlay">Explore More</div> <a href="#">Explore more</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="morebtn">
+            <button>More Blogs</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <div class="container" data-aos="zoom-in">
+          <div class="heading"><span>C</span>ontact <span>U</span>s</div>
+          <div class="row">
+            <div class="card" data-aos="zoom-in" data-aos-delay="0">
+              <i class="ri-map-pin-line"></i>
+              <div class="address">Lorem ipsum dolor sit amet consectetur.</div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <i class="ri-phone-line"></i>
+              <div class="phone">+91 123456795</div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+              <i class="ri-mail-line"></i>
+              <div class="email">Email: gopaldawar@gmail.com</div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+              <i class="ri-earth-fill"></i>
+              <div class="webpage">webpage : youtube.come</div>
+            </div>
+          </div>
+
+          <div class="row row1" data-aos="zoom-in" data-aos-delay="400">
+            <!-- Form Card -->
+            <div class="card form-card">
+              <form>
+                <div class="fgroup">
+                  <div class="group">
+                    <label>Full Name :</label>
+                    <input type="text" placeholder="Name..." required />
+                  </div>
+
+                  <div class="group">
+                    <label>Address :</label>
+                    <input type="text" placeholder="Address..." required />
+                  </div>
+                </div>
+                <div class="fgroup">
+                  <div class="group">
+                    <label>Subject :</label>
+                    <input type="text" placeholder="Subject..." required />
+                  </div>
+                </div>
+                <div class="fgroup">
+                  <div class="group">
+                    <label>Message :</label>
+                    <textarea placeholder="Message" required></textarea>
+                  </div>
+                </div>
+                <div class="fgroup fbtn">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Image Card -->
+            <div class="card img-card">
+              <div class="imgs">
+                <img src="./images/contact.jpg" alt="Contact Image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- footer Section Here -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col1">
+              <div class="f-heading" data-aos="fade-right" data-aos-delay="0">
+                About Us
+              </div>
+              <div class="line" data-aos="fade-right" data-aos-delay="100">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                quibusdam natus aliquam, quaerat facilis quod asperiores eos
+                doloribus nulla sequi quia, dicta veniam accusamus magni
+                mollitia! A vitae error porro.
+              </div>
+              <div class="phone" data-aos="fade-right" data-aos-delay="200">
+                <i class="ri-phone-line"></i> +91 1234 567 890
+              </div>
+              <div class="email" data-aos="fade-right" data-aos-delay="300">
+                <i class="ri-mail-line"></i> skytrail@gmail.com
+              </div>
+              <div class="msgsend" data-aos="fade-right" data-aos-delay="400">
+                <div class="btns">
+                  <input type="text" placeholder="Enter you" />
+                  <button class="btn">Send</button>
+                </div>
+              </div>
+            </div>
+            <div class="col2">
+              <div class="f-heading" data-aos="fade-down" data-aos-delay="0">
+                Latest Tweet
+              </div>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  Lorem ipsum dolor sit. iusto ea fugiat explicabo molestiae.
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  Lorem ipsum dolor sit amet. iusto ea fugiat explicabo
+                  molestiae.
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  Lorem ipsum dolor sit amet. iusto ea fugiat explicabo
+                  molestiae.
+                </li>
+              </ul>
+            </div>
+            <div class="col3" data-aos="fade-left">
+              <div class="f-heading">Instagram</div>
+              <ul>
+                <li><img src="./images/footer(1).jpg" alt="" /></li>
+                <li><img src="./images/footer(2).jpg" alt="" /></li>
+                <li><img src="./images/footer(3).jpg" alt="" /></li>
+                <li><img src="./images/footer(4).jpg" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+          <div class="headerrow">
+            <div class="footerheader">
+              <ul class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Destinations</a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Tours</a></li>
+                <li><a href="">Special</a></li>
+                <li><a href="">Deals</a></li>
+              </ul>
+              <div class="logo">
+                <h1><span>S</span>ky<span>T</span>rail</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scroll animation cdn  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: false,
+        offset: 200,
+        anchorPlacement: "center-bottom",
+      });
+    </script>
+
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- ScrollTrigger Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- External GSAP File  -->
+    <script src="./js/gsap.js"></script>
+
+    <!-- External JavaScript File -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
